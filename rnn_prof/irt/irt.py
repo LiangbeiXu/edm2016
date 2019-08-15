@@ -6,9 +6,13 @@ import logging
 
 from igraph import Graph, Vertex
 
-from .callbacks import ConvergenceCallback
-from .node import Node
-from .updaters import UpdateTerms
+import callbacks
+import node
+import updaters
+
+from callbacks import ConvergenceCallback
+from node import Node
+from updaters import UpdateTerms
 
 LOGGER = logging.getLogger(__name__)
 

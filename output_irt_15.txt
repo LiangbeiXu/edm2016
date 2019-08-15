@@ -1,0 +1,67 @@
+2019-04-19 16:20:35,219 [INFO] rnn_prof.data.wrapper: Using rnn_prof.data.assistments data with skill_id for item_id_col, None for template_id_col, and single for concept_id_col
+2019-04-19 16:20:37,005 [INFO] rnn_prof.data.assistments: Read 564,662 rows from file
+2019-04-19 16:20:41,838 [INFO] rnn_prof.data.assistments: Removed   0 duplicate rows (564,662 rows remaining)
+2019-04-19 16:20:43,246 [INFO] rnn_prof.data.assistments: Removed students with <2 interactions (564,260 rows remaining)
+2019-04-19 16:20:43,640 [INFO] rnn_prof.data.assistments: Using dummy single concept.
+2019-04-19 16:20:43,712 [INFO] rnn_prof.data.assistments: template_id_col not supplied, not using templates
+2019-04-19 16:20:43,712 [INFO] rnn_prof.data.assistments: Processed data: 564,260 interactions, 15,531 students; 100 items,   0 templates,   1 concepts
+2019-04-19 16:20:43,815 [INFO] rnn_prof.data.wrapper: After removing students, 564,260/564,260 rows and 15,531/15,531 students remain
+2019-04-19 16:20:43,886 [INFO] rnn_prof.run_irt: Training 1PO model, fold 1, (single concept = False)
+2019-04-19 16:20:43,905 [INFO] rnn_prof.run_irt: Made a 1PO IRT learner with default item precision
+2019-04-19 16:20:43,905 [INFO] rnn_prof.irt.irt: Beginning learning
+2019-04-19 16:25:34,658 [INFO] rnn_prof.irt.irt: Learning finished at iteration 751, log-posterior = -257817.476782
+2019-04-19 16:25:34,658 [INFO] rnn_prof.run_irt: Performing online cross-validation
+2019-04-19 16:25:34,788 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 0 (max=509): 0 train and 3106 test interactions.
+2019-04-19 16:25:51,926 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 100 (max=509): 23900 train and 239 test interactions.
+2019-04-19 16:25:59,714 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 200 (max=509): 5600 train and 28 test interactions.
+2019-04-19 16:26:02,647 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 300 (max=509): 600 train and 2 test interactions.
+2019-04-19 16:26:04,255 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 400 (max=509): 400 train and 1 test interactions.
+2019-04-19 16:26:05,717 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 500 (max=509): 500 train and 1 test interactions.
+2019-04-19 16:26:05,904 [INFO] rnn_prof.run_irt: Fold 1: Num Interactions: 113448; Test Accuracy: 0.70472; Test AUC: 0.66533
+2019-04-19 16:26:05,971 [INFO] rnn_prof.run_irt: Training 1PO model, fold 2, (single concept = False)
+2019-04-19 16:26:05,990 [INFO] rnn_prof.run_irt: Made a 1PO IRT learner with default item precision
+2019-04-19 16:26:05,991 [INFO] rnn_prof.irt.irt: Beginning learning
+2019-04-19 16:31:01,998 [INFO] rnn_prof.irt.irt: Learning finished at iteration 754, log-posterior = -259546.206056
+2019-04-19 16:31:01,998 [INFO] rnn_prof.run_irt: Performing online cross-validation
+2019-04-19 16:31:02,130 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 0 (max=497): 0 train and 3106 test interactions.
+2019-04-19 16:31:17,981 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 100 (max=497): 22000 train and 220 test interactions.
+2019-04-19 16:31:25,061 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 200 (max=497): 6200 train and 31 test interactions.
+2019-04-19 16:31:27,814 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 300 (max=497): 1800 train and 6 test interactions.
+2019-04-19 16:31:29,415 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 400 (max=497): 800 train and 2 test interactions.
+2019-04-19 16:31:30,755 [INFO] rnn_prof.run_irt: Fold 2: Num Interactions: 110533; Test Accuracy: 0.70682; Test AUC: 0.66418
+2019-04-19 16:31:30,824 [INFO] rnn_prof.run_irt: Training 1PO model, fold 3, (single concept = False)
+2019-04-19 16:31:30,846 [INFO] rnn_prof.run_irt: Made a 1PO IRT learner with default item precision
+2019-04-19 16:31:30,846 [INFO] rnn_prof.irt.irt: Beginning learning
+2019-04-19 16:35:48,673 [INFO] rnn_prof.irt.irt: Learning finished at iteration 750, log-posterior = -257904.133568
+2019-04-19 16:35:48,673 [INFO] rnn_prof.run_irt: Performing online cross-validation
+2019-04-19 16:35:48,807 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 0 (max=381): 0 train and 3106 test interactions.
+2019-04-19 16:36:04,294 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 100 (max=381): 22800 train and 228 test interactions.
+2019-04-19 16:36:12,040 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 200 (max=381): 6400 train and 32 test interactions.
+2019-04-19 16:36:14,823 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 300 (max=381): 1500 train and 5 test interactions.
+2019-04-19 16:36:16,293 [INFO] rnn_prof.run_irt: Fold 3: Num Interactions: 112747; Test Accuracy: 0.70249; Test AUC: 0.66784
+2019-04-19 16:36:16,360 [INFO] rnn_prof.run_irt: Training 1PO model, fold 4, (single concept = False)
+2019-04-19 16:36:16,379 [INFO] rnn_prof.run_irt: Made a 1PO IRT learner with default item precision
+2019-04-19 16:36:16,380 [INFO] rnn_prof.irt.irt: Beginning learning
+2019-04-19 16:40:41,374 [INFO] rnn_prof.irt.irt: Learning finished at iteration 751, log-posterior = -257930.848597
+2019-04-19 16:40:41,374 [INFO] rnn_prof.run_irt: Performing online cross-validation
+2019-04-19 16:40:41,507 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 0 (max=427): 0 train and 3106 test interactions.
+2019-04-19 16:40:55,357 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 100 (max=427): 22100 train and 221 test interactions.
+2019-04-19 16:41:04,195 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 200 (max=427): 7400 train and 37 test interactions.
+2019-04-19 16:41:07,410 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 300 (max=427): 1200 train and 4 test interactions.
+2019-04-19 16:41:09,104 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 400 (max=427): 400 train and 1 test interactions.
+2019-04-19 16:41:09,485 [INFO] rnn_prof.run_irt: Fold 4: Num Interactions: 113972; Test Accuracy: 0.70983; Test AUC: 0.66632
+2019-04-19 16:41:09,610 [INFO] rnn_prof.run_irt: Training 1PO model, fold 5, (single concept = False)
+2019-04-19 16:41:09,629 [INFO] rnn_prof.run_irt: Made a 1PO IRT learner with default item precision
+2019-04-19 16:41:09,629 [INFO] rnn_prof.irt.irt: Beginning learning
+2019-04-19 16:45:11,745 [INFO] rnn_prof.irt.irt: Learning finished at iteration 750, log-posterior = -258284.207575
+2019-04-19 16:45:11,745 [INFO] rnn_prof.run_irt: Performing online cross-validation
+2019-04-19 16:45:11,878 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 0 (max=632): 0 train and 3106 test interactions.
+2019-04-19 16:45:26,094 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 100 (max=632): 23100 train and 231 test interactions.
+2019-04-19 16:45:33,205 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 200 (max=632): 7000 train and 35 test interactions.
+2019-04-19 16:45:36,472 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 300 (max=632): 2100 train and 7 test interactions.
+2019-04-19 16:45:38,018 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 400 (max=632): 800 train and 2 test interactions.
+2019-04-19 16:45:39,330 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 500 (max=632): 1000 train and 2 test interactions.
+2019-04-19 16:45:40,715 [INFO] rnn_prof.irt.online_cross_validation: Processed histories up to length 600 (max=632): 1200 train and 2 test interactions.
+2019-04-19 16:45:41,152 [INFO] rnn_prof.run_irt: Fold 5: Num Interactions: 113530; Test Accuracy: 0.71102; Test AUC: 0.66709
+2019-04-19 16:45:41,157 [INFO] rnn_prof.run_irt: Overall Acc: 0.70698 AUC: 0.66615
+Iter 100: Log-Posterior: -257871.3585, Log10Grad: 1.2772, Log10Diff: -2.9164 Iter 200: Log-Posterior: -257822.8232, Log10Grad: 0.7731, Log10Diff: -3.4203 Iter 300: Log-Posterior: -257818.0194, Log10Grad: 0.2691, Log10Diff: -3.9241 Iter 400: Log-Posterior: -257817.5355, Log10Grad: -0.2348, Log10Diff: -4.4280 Iter 500: Log-Posterior: -257817.4841, Log10Grad: -0.7386, Log10Diff: -4.9319 Iter 600: Log-Posterior: -257817.4779, Log10Grad: -1.2425, Log10Diff: -5.4357 Iter 700: Log-Posterior: -257817.4769, Log10Grad: -1.7464, Log10Diff: -5.9396 Iter 100: Log-Posterior: -259600.3773, Log10Grad: 1.2724, Log10Diff: -2.9184 Iter 200: Log-Posterior: -259551.6645, Log10Grad: 0.7718, Log10Diff: -3.4188 Iter 300: Log-Posterior: -259546.7679, Log10Grad: 0.2713, Log10Diff: -3.9193 Iter 400: Log-Posterior: -259546.2675, Log10Grad: -0.2292, Log10Diff: -4.4197 Iter 500: Log-Posterior: -259546.2138, Log10Grad: -0.7296, Log10Diff: -4.9201 Iter 600: Log-Posterior: -259546.2072, Log10Grad: -1.2300, Log10Diff: -5.4205 Iter 700: Log-Posterior: -259546.2062, Log10Grad: -1.7304, Log10Diff: -5.9209 Iter 100: Log-Posterior: -257958.6115, Log10Grad: 1.2710, Log10Diff: -2.9143 Iter 200: Log-Posterior: -257909.5392, Log10Grad: 0.7670, Log10Diff: -3.4180 Iter 300: Log-Posterior: -257904.6819, Log10Grad: 0.2631, Log10Diff: -3.9219 Iter 400: Log-Posterior: -257904.1928, Log10Grad: -0.2407, Log10Diff: -4.4257 Iter 500: Log-Posterior: -257904.1410, Log10Grad: -0.7446, Log10Diff: -4.9295 Iter 600: Log-Posterior: -257904.1347, Log10Grad: -1.2484, Log10Diff: -5.4333 Iter 700: Log-Posterior: -257904.1337, Log10Grad: -1.7522, Log10Diff: -5.9371 Iter 100: Log-Posterior: -257984.3903, Log10Grad: 1.2738, Log10Diff: -2.9176 Iter 200: Log-Posterior: -257936.1677, Log10Grad: 0.7700, Log10Diff: -3.4210 Iter 300: Log-Posterior: -257931.3887, Log10Grad: 0.2664, Log10Diff: -3.9245 Iter 400: Log-Posterior: -257930.9070, Log10Grad: -0.2371, Log10Diff: -4.4281 Iter 500: Log-Posterior: -257930.8559, Log10Grad: -0.7407, Log10Diff: -4.9316 Iter 600: Log-Posterior: -257930.8497, Log10Grad: -1.2442, Log10Diff: -5.4352 Iter 700: Log-Posterior: -257930.8487, Log10Grad: -1.7478, Log10Diff: -5.9387 Iter 100: Log-Posterior: -258337.6524, Log10Grad: 1.2682, Log10Diff: -2.9188 Iter 200: Log-Posterior: -258289.5336, Log10Grad: 0.7651, Log10Diff: -3.4216 Iter 300: Log-Posterior: -258284.7501, Log10Grad: 0.2622, Log10Diff: -3.9245 Iter 400: Log-Posterior: -258284.2663, Log10Grad: -0.2407, Log10Diff: -4.4273 Iter 500: Log-Posterior: -258284.2149, Log10Grad: -0.7436, Log10Diff: -4.9302 Iter 600: Log-Posterior: -258284.2087, Log10Grad: -1.2464, Log10Diff: -5.4330 Iter 700: Log-Posterior: -258284.2077, Log10Grad: -1.7493, Log10Diff: -5.9359

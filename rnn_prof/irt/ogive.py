@@ -8,10 +8,16 @@ import logging
 import numpy as np
 from scipy import stats as st
 
-from .cpd import CPDTerms, CPD, FunctionInfo
-from ..constants import THETAS_KEY, OFFSET_COEFFS_KEY, NONOFFSET_COEFFS_KEY
-from ..linear_operators import IndexOperator
-from ..updaters import UpdateTerms
+import cpd
+import constants
+import linear_operators
+import updaters
+import ogive
+
+from cpd import CPDTerms, CPD, FunctionInfo
+from constants import THETAS_KEY, OFFSET_COEFFS_KEY, NONOFFSET_COEFFS_KEY
+from linear_operators import IndexOperator
+from updaters import UpdateTerms
 
 LOGGER = logging.getLogger(__name__)
 

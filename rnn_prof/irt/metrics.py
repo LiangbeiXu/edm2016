@@ -5,7 +5,13 @@ import logging
 
 import numpy as np
 
-from .cpd.ogive import OgiveCPD
+import ogive
+
+from ogive import OgiveCPD
+
+# from ogive import OgiveCPD
+
+
 
 EPSILON = 1e-16
 

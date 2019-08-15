@@ -4,9 +4,13 @@ A module containing Gaussian conditional probability distributions.
 import numpy as np
 from scipy import sparse as sp
 
-from .cpd import CPD, CPDTerms, FunctionInfo
-from ..linear_operators import IndexOperator, get_subset_lin_op, rmatvec_nd
-from ..updaters import UpdateTerms
+import cpd
+import linear_operators
+import updaters
+
+from cpd import CPD, CPDTerms, FunctionInfo
+from linear_operators import IndexOperator, get_subset_lin_op, rmatvec_nd
+from updaters import UpdateTerms
 
 MAX_SIZE_FOR_DENSIFICATION = 1000
 

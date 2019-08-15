@@ -12,8 +12,12 @@ from . import cpd
 from . import irt
 from . import learners
 from . import node
+from . import cpd
+from . import gaussian
+from . import ogive
+
 from .constants import (TRAIN_RESPONSES_KEY, TEST_RESPONSES_KEY, THETAS_KEY, OFFSET_COEFFS_KEY,
                         NONOFFSET_COEFFS_KEY)
 
 __all__ = ('callbacks', 'cpd', 'irt', 'learners', 'node', 'TRAIN_RESPONSES_KEY',
-           'TEST_RESPONSES_KEY', 'THETAS_KEY', 'OFFSET_COEFFS_KEY', 'NONOFFSET_COEFFS_KEY')
+           'TEST_RESPONSES_KEY', 'THETAS_KEY', 'OFFSET_COEFFS_KEY', 'NONOFFSET_COEFFS_KEY','CPD', 'OnePOCPD', 'TwoPOCPD', 'GaussianCPD')

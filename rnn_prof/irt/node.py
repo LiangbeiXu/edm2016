@@ -7,11 +7,17 @@ import sys
 
 import numpy as np
 from scipy import sparse as sp
+import constants
+import cpd
+import metrics
+import updaters
+import gaussian
 
-from .constants import DEFAULT_STEP_SIZE
-from .cpd import CPD, GaussianCPD
-from .metrics import Metrics
-from .updaters import UpdateTerms, SolverPars, NewtonRaphson
+from constants import DEFAULT_STEP_SIZE
+from cpd import CPD
+from gaussian import GaussianCPD
+from metrics import Metrics
+from updaters import UpdateTerms, SolverPars, NewtonRaphson
 
 LOGGER = logging.getLogger(__name__)
 

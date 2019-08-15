@@ -14,7 +14,8 @@ def main(input_file, student_id, delimiter, seed=293, kept_percentage=0.8):
     :param int seed: seed for the random split
     :param float kept_percentage: percent of students to retain in first split
     """
-
+    # input_file = '~/Documents/StudentLearningProcess/skill_builder_data_corrected.csv'
+    # student_id = 'user_id'
     # parse delimiter special characters
     delimiter = delimiter.decode('string_escape')
     df = pd.read_csv(input_file, delimiter=delimiter, index_col=False)
@@ -31,6 +32,6 @@ def main(input_file, student_id, delimiter, seed=293, kept_percentage=0.8):
 
 if __name__ == '__main__':
     if len(sys.argv) != 4:
-        print "split_data.py filename id_column_name delimiter"
+        print ("split_data.py filename id_column_name delimiter")
         sys.exit(1)
     main(sys.argv[1], sys.argv[2], sys.argv[3])

@@ -1,0 +1,632 @@
+2019-04-19 16:20:35,192 [INFO] rnn_prof.data.wrapper: Using rnn_prof.data.assistments data with skill_id for item_id_col, None for template_id_col, and None for concept_id_col
+/home/lxu/anaconda3/envs/irt/lib/python2.7/site-packages/pandas/io/parsers.py:1170: DtypeWarning: Columns (17) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = self._reader.read(nrows)
+2019-04-19 16:20:38,017 [INFO] rnn_prof.data.assistments: Read 324,527 rows from file
+2019-04-19 16:20:41,274 [INFO] rnn_prof.data.assistments: Removed 44,555 duplicate rows (279,972 rows remaining)
+2019-04-19 16:20:42,178 [INFO] rnn_prof.data.assistments: Removed students with <2 interactions (279,875 rows remaining)
+2019-04-19 16:20:42,546 [INFO] rnn_prof.data.assistments: concept_id_col not supplied, not using concepts
+2019-04-19 16:20:42,546 [INFO] rnn_prof.data.assistments: template_id_col not supplied, not using templates
+2019-04-19 16:20:42,546 [INFO] rnn_prof.data.assistments: Processed data: 279,875 interactions, 3,276 students; 113 items,   0 templates,   0 concepts
+2019-04-19 16:20:42,663 [INFO] rnn_prof.data.wrapper: After removing students, 279,875/279,875 rows and 3,276/3,276 students remain
+2019-04-19 16:20:42,705 [INFO] rnn_prof.run_rnn: Beginning fold 1
+2019-04-19 16:20:42,705 [INFO] rnn_prof.run_rnn: Training RNN, fold 1
+2019-04-19 16:20:50,005 [INFO] rnn_prof.simple_rnn: Performing training iteration   1/50
+2019-04-19 16:21:12,555 [INFO] rnn_prof.simple_rnn: Iteration   1/50 took 22.55s
+2019-04-19 16:21:12,555 [INFO] rnn_prof.simple_rnn: Performing training iteration   2/50
+2019-04-19 16:21:23,072 [INFO] rnn_prof.simple_rnn: Iteration   2/50 took 10.52s
+2019-04-19 16:21:23,072 [INFO] rnn_prof.simple_rnn: Performing training iteration   3/50
+2019-04-19 16:21:35,917 [INFO] rnn_prof.simple_rnn: Iteration   3/50 took 12.84s
+2019-04-19 16:21:35,917 [INFO] rnn_prof.simple_rnn: Performing training iteration   4/50
+2019-04-19 16:21:48,472 [INFO] rnn_prof.simple_rnn: Iteration   4/50 took 12.55s
+2019-04-19 16:21:48,472 [INFO] rnn_prof.simple_rnn: Performing training iteration   5/50
+2019-04-19 16:22:02,064 [INFO] rnn_prof.simple_rnn: Iteration   5/50 took 13.59s
+2019-04-19 16:22:02,065 [INFO] rnn_prof.simple_rnn: Performing training iteration   6/50
+2019-04-19 16:22:15,780 [INFO] rnn_prof.simple_rnn: Iteration   6/50 took 13.72s
+2019-04-19 16:22:15,783 [INFO] rnn_prof.simple_rnn: Performing training iteration   7/50
+2019-04-19 16:22:29,672 [INFO] rnn_prof.simple_rnn: Iteration   7/50 took 13.89s
+2019-04-19 16:22:29,672 [INFO] rnn_prof.simple_rnn: Performing training iteration   8/50
+2019-04-19 16:22:42,149 [INFO] rnn_prof.simple_rnn: Iteration   8/50 took 12.48s
+2019-04-19 16:22:42,149 [INFO] rnn_prof.simple_rnn: Performing training iteration   9/50
+2019-04-19 16:22:54,436 [INFO] rnn_prof.simple_rnn: Iteration   9/50 took 12.29s
+2019-04-19 16:22:54,436 [INFO] rnn_prof.simple_rnn: Performing training iteration  10/50
+2019-04-19 16:23:07,339 [INFO] rnn_prof.simple_rnn: Iteration  10/50 took 12.89s
+2019-04-19 16:23:07,340 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  10/50
+2019-04-19 16:23:11,565 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.68926; Train AUC: 0.69691
+2019-04-19 16:23:11,565 [INFO] rnn_prof.simple_rnn: Running tests for iteration  10/50
+2019-04-19 16:23:12,644 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.69544; Test AUC: 0.70091
+2019-04-19 16:23:12,644 [INFO] rnn_prof.simple_rnn: Performing training iteration  11/50
+2019-04-19 16:23:25,528 [INFO] rnn_prof.simple_rnn: Iteration  11/50 took 12.88s
+2019-04-19 16:23:25,529 [INFO] rnn_prof.simple_rnn: Performing training iteration  12/50
+2019-04-19 16:23:38,269 [INFO] rnn_prof.simple_rnn: Iteration  12/50 took 12.74s
+2019-04-19 16:23:38,269 [INFO] rnn_prof.simple_rnn: Performing training iteration  13/50
+2019-04-19 16:23:51,324 [INFO] rnn_prof.simple_rnn: Iteration  13/50 took 13.05s
+2019-04-19 16:23:51,324 [INFO] rnn_prof.simple_rnn: Performing training iteration  14/50
+2019-04-19 16:24:03,865 [INFO] rnn_prof.simple_rnn: Iteration  14/50 took 12.54s
+2019-04-19 16:24:03,865 [INFO] rnn_prof.simple_rnn: Performing training iteration  15/50
+2019-04-19 16:24:16,712 [INFO] rnn_prof.simple_rnn: Iteration  15/50 took 12.85s
+2019-04-19 16:24:16,712 [INFO] rnn_prof.simple_rnn: Performing training iteration  16/50
+2019-04-19 16:24:29,736 [INFO] rnn_prof.simple_rnn: Iteration  16/50 took 13.02s
+2019-04-19 16:24:29,737 [INFO] rnn_prof.simple_rnn: Performing training iteration  17/50
+2019-04-19 16:24:42,241 [INFO] rnn_prof.simple_rnn: Iteration  17/50 took 12.50s
+2019-04-19 16:24:42,241 [INFO] rnn_prof.simple_rnn: Performing training iteration  18/50
+2019-04-19 16:24:53,966 [INFO] rnn_prof.simple_rnn: Iteration  18/50 took 11.72s
+2019-04-19 16:24:53,966 [INFO] rnn_prof.simple_rnn: Performing training iteration  19/50
+2019-04-19 16:25:05,480 [INFO] rnn_prof.simple_rnn: Iteration  19/50 took 11.51s
+2019-04-19 16:25:05,480 [INFO] rnn_prof.simple_rnn: Performing training iteration  20/50
+2019-04-19 16:25:17,204 [INFO] rnn_prof.simple_rnn: Iteration  20/50 took 11.72s
+2019-04-19 16:25:17,204 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  20/50
+2019-04-19 16:25:20,258 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70212; Train AUC: 0.71380
+2019-04-19 16:25:20,258 [INFO] rnn_prof.simple_rnn: Running tests for iteration  20/50
+2019-04-19 16:25:21,268 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.70785; Test AUC: 0.71753
+2019-04-19 16:25:21,268 [INFO] rnn_prof.simple_rnn: Performing training iteration  21/50
+2019-04-19 16:25:33,188 [INFO] rnn_prof.simple_rnn: Iteration  21/50 took 11.92s
+2019-04-19 16:25:33,188 [INFO] rnn_prof.simple_rnn: Performing training iteration  22/50
+2019-04-19 16:25:46,161 [INFO] rnn_prof.simple_rnn: Iteration  22/50 took 12.97s
+2019-04-19 16:25:46,161 [INFO] rnn_prof.simple_rnn: Performing training iteration  23/50
+2019-04-19 16:25:58,000 [INFO] rnn_prof.simple_rnn: Iteration  23/50 took 11.84s
+2019-04-19 16:25:58,000 [INFO] rnn_prof.simple_rnn: Performing training iteration  24/50
+2019-04-19 16:26:10,477 [INFO] rnn_prof.simple_rnn: Iteration  24/50 took 12.48s
+2019-04-19 16:26:10,477 [INFO] rnn_prof.simple_rnn: Performing training iteration  25/50
+2019-04-19 16:26:22,265 [INFO] rnn_prof.simple_rnn: Iteration  25/50 took 11.79s
+2019-04-19 16:26:22,265 [INFO] rnn_prof.simple_rnn: Performing training iteration  26/50
+2019-04-19 16:26:34,908 [INFO] rnn_prof.simple_rnn: Iteration  26/50 took 12.64s
+2019-04-19 16:26:34,909 [INFO] rnn_prof.simple_rnn: Performing training iteration  27/50
+2019-04-19 16:26:47,130 [INFO] rnn_prof.simple_rnn: Iteration  27/50 took 12.22s
+2019-04-19 16:26:47,130 [INFO] rnn_prof.simple_rnn: Performing training iteration  28/50
+2019-04-19 16:27:00,437 [INFO] rnn_prof.simple_rnn: Iteration  28/50 took 13.31s
+2019-04-19 16:27:00,438 [INFO] rnn_prof.simple_rnn: Performing training iteration  29/50
+2019-04-19 16:27:12,756 [INFO] rnn_prof.simple_rnn: Iteration  29/50 took 12.32s
+2019-04-19 16:27:12,757 [INFO] rnn_prof.simple_rnn: Performing training iteration  30/50
+2019-04-19 16:27:26,567 [INFO] rnn_prof.simple_rnn: Iteration  30/50 took 13.81s
+2019-04-19 16:27:26,567 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  30/50
+2019-04-19 16:27:30,008 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70515; Train AUC: 0.71951
+2019-04-19 16:27:30,008 [INFO] rnn_prof.simple_rnn: Running tests for iteration  30/50
+2019-04-19 16:27:31,141 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.70978; Test AUC: 0.72240
+2019-04-19 16:27:31,142 [INFO] rnn_prof.simple_rnn: Performing training iteration  31/50
+2019-04-19 16:27:44,281 [INFO] rnn_prof.simple_rnn: Iteration  31/50 took 13.14s
+2019-04-19 16:27:44,281 [INFO] rnn_prof.simple_rnn: Performing training iteration  32/50
+2019-04-19 16:27:56,405 [INFO] rnn_prof.simple_rnn: Iteration  32/50 took 12.12s
+2019-04-19 16:27:56,405 [INFO] rnn_prof.simple_rnn: Performing training iteration  33/50
+2019-04-19 16:28:08,776 [INFO] rnn_prof.simple_rnn: Iteration  33/50 took 12.37s
+2019-04-19 16:28:08,776 [INFO] rnn_prof.simple_rnn: Performing training iteration  34/50
+2019-04-19 16:28:20,796 [INFO] rnn_prof.simple_rnn: Iteration  34/50 took 12.02s
+2019-04-19 16:28:20,796 [INFO] rnn_prof.simple_rnn: Performing training iteration  35/50
+2019-04-19 16:28:33,276 [INFO] rnn_prof.simple_rnn: Iteration  35/50 took 12.48s
+2019-04-19 16:28:33,276 [INFO] rnn_prof.simple_rnn: Performing training iteration  36/50
+2019-04-19 16:28:47,343 [INFO] rnn_prof.simple_rnn: Iteration  36/50 took 14.07s
+2019-04-19 16:28:47,343 [INFO] rnn_prof.simple_rnn: Performing training iteration  37/50
+2019-04-19 16:28:59,863 [INFO] rnn_prof.simple_rnn: Iteration  37/50 took 12.52s
+2019-04-19 16:28:59,863 [INFO] rnn_prof.simple_rnn: Performing training iteration  38/50
+2019-04-19 16:29:10,729 [INFO] rnn_prof.simple_rnn: Iteration  38/50 took 10.87s
+2019-04-19 16:29:10,730 [INFO] rnn_prof.simple_rnn: Performing training iteration  39/50
+2019-04-19 16:29:22,003 [INFO] rnn_prof.simple_rnn: Iteration  39/50 took 11.27s
+2019-04-19 16:29:22,004 [INFO] rnn_prof.simple_rnn: Performing training iteration  40/50
+2019-04-19 16:29:33,324 [INFO] rnn_prof.simple_rnn: Iteration  40/50 took 11.32s
+2019-04-19 16:29:33,327 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  40/50
+2019-04-19 16:29:37,218 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70673; Train AUC: 0.72378
+2019-04-19 16:29:37,218 [INFO] rnn_prof.simple_rnn: Running tests for iteration  40/50
+2019-04-19 16:29:38,147 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.71088; Test AUC: 0.72690
+2019-04-19 16:29:38,147 [INFO] rnn_prof.simple_rnn: Performing training iteration  41/50
+2019-04-19 16:29:49,016 [INFO] rnn_prof.simple_rnn: Iteration  41/50 took 10.87s
+2019-04-19 16:29:49,016 [INFO] rnn_prof.simple_rnn: Performing training iteration  42/50
+2019-04-19 16:29:59,811 [INFO] rnn_prof.simple_rnn: Iteration  42/50 took 10.79s
+2019-04-19 16:29:59,811 [INFO] rnn_prof.simple_rnn: Performing training iteration  43/50
+2019-04-19 16:30:10,062 [INFO] rnn_prof.simple_rnn: Iteration  43/50 took 10.25s
+2019-04-19 16:30:10,062 [INFO] rnn_prof.simple_rnn: Performing training iteration  44/50
+2019-04-19 16:30:20,070 [INFO] rnn_prof.simple_rnn: Iteration  44/50 took 10.01s
+2019-04-19 16:30:20,070 [INFO] rnn_prof.simple_rnn: Performing training iteration  45/50
+2019-04-19 16:30:30,587 [INFO] rnn_prof.simple_rnn: Iteration  45/50 took 10.52s
+2019-04-19 16:30:30,589 [INFO] rnn_prof.simple_rnn: Performing training iteration  46/50
+2019-04-19 16:30:40,959 [INFO] rnn_prof.simple_rnn: Iteration  46/50 took 10.37s
+2019-04-19 16:30:40,959 [INFO] rnn_prof.simple_rnn: Performing training iteration  47/50
+2019-04-19 16:30:50,503 [INFO] rnn_prof.simple_rnn: Iteration  47/50 took 9.54s
+2019-04-19 16:30:50,503 [INFO] rnn_prof.simple_rnn: Performing training iteration  48/50
+2019-04-19 16:30:59,973 [INFO] rnn_prof.simple_rnn: Iteration  48/50 took 9.47s
+2019-04-19 16:30:59,973 [INFO] rnn_prof.simple_rnn: Performing training iteration  49/50
+2019-04-19 16:31:10,096 [INFO] rnn_prof.simple_rnn: Iteration  49/50 took 10.12s
+2019-04-19 16:31:10,096 [INFO] rnn_prof.simple_rnn: Performing training iteration  50/50
+2019-04-19 16:31:20,346 [INFO] rnn_prof.simple_rnn: Iteration  50/50 took 10.25s
+2019-04-19 16:31:20,346 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  50/50
+2019-04-19 16:31:23,509 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70851; Train AUC: 0.72487
+2019-04-19 16:31:23,509 [INFO] rnn_prof.simple_rnn: Running tests for iteration  50/50
+2019-04-19 16:31:24,507 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.71196; Test AUC: 0.72739
+2019-04-19 16:31:24,507 [INFO] rnn_prof.run_rnn: Fold 1: Num Interactions: 63732; Test Accuracy: 0.71196; Test AUC: 0.72739
+2019-04-19 16:31:24,554 [INFO] rnn_prof.run_rnn: Beginning fold 2
+2019-04-19 16:31:24,554 [INFO] rnn_prof.run_rnn: Training RNN, fold 2
+2019-04-19 16:31:31,745 [INFO] rnn_prof.simple_rnn: Performing training iteration   1/50
+2019-04-19 16:31:47,700 [INFO] rnn_prof.simple_rnn: Iteration   1/50 took 15.96s
+2019-04-19 16:31:47,701 [INFO] rnn_prof.simple_rnn: Performing training iteration   2/50
+2019-04-19 16:31:58,233 [INFO] rnn_prof.simple_rnn: Iteration   2/50 took 10.53s
+2019-04-19 16:31:58,233 [INFO] rnn_prof.simple_rnn: Performing training iteration   3/50
+2019-04-19 16:32:08,888 [INFO] rnn_prof.simple_rnn: Iteration   3/50 took 10.65s
+2019-04-19 16:32:08,888 [INFO] rnn_prof.simple_rnn: Performing training iteration   4/50
+2019-04-19 16:32:19,135 [INFO] rnn_prof.simple_rnn: Iteration   4/50 took 10.25s
+2019-04-19 16:32:19,135 [INFO] rnn_prof.simple_rnn: Performing training iteration   5/50
+2019-04-19 16:32:28,074 [INFO] rnn_prof.simple_rnn: Iteration   5/50 took 8.94s
+2019-04-19 16:32:28,075 [INFO] rnn_prof.simple_rnn: Performing training iteration   6/50
+2019-04-19 16:32:36,053 [INFO] rnn_prof.simple_rnn: Iteration   6/50 took 7.98s
+2019-04-19 16:32:36,054 [INFO] rnn_prof.simple_rnn: Performing training iteration   7/50
+2019-04-19 16:32:44,044 [INFO] rnn_prof.simple_rnn: Iteration   7/50 took 7.99s
+2019-04-19 16:32:44,044 [INFO] rnn_prof.simple_rnn: Performing training iteration   8/50
+2019-04-19 16:32:52,010 [INFO] rnn_prof.simple_rnn: Iteration   8/50 took 7.97s
+2019-04-19 16:32:52,010 [INFO] rnn_prof.simple_rnn: Performing training iteration   9/50
+2019-04-19 16:33:02,346 [INFO] rnn_prof.simple_rnn: Iteration   9/50 took 10.34s
+2019-04-19 16:33:02,346 [INFO] rnn_prof.simple_rnn: Performing training iteration  10/50
+2019-04-19 16:33:13,590 [INFO] rnn_prof.simple_rnn: Iteration  10/50 took 11.24s
+2019-04-19 16:33:13,590 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  10/50
+2019-04-19 16:33:16,670 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.69152; Train AUC: 0.69638
+2019-04-19 16:33:16,670 [INFO] rnn_prof.simple_rnn: Running tests for iteration  10/50
+2019-04-19 16:33:17,563 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.69040; Test AUC: 0.69147
+2019-04-19 16:33:17,563 [INFO] rnn_prof.simple_rnn: Performing training iteration  11/50
+2019-04-19 16:33:27,932 [INFO] rnn_prof.simple_rnn: Iteration  11/50 took 10.37s
+2019-04-19 16:33:27,932 [INFO] rnn_prof.simple_rnn: Performing training iteration  12/50
+2019-04-19 16:33:38,275 [INFO] rnn_prof.simple_rnn: Iteration  12/50 took 10.34s
+2019-04-19 16:33:38,275 [INFO] rnn_prof.simple_rnn: Performing training iteration  13/50
+2019-04-19 16:33:48,750 [INFO] rnn_prof.simple_rnn: Iteration  13/50 took 10.47s
+2019-04-19 16:33:48,750 [INFO] rnn_prof.simple_rnn: Performing training iteration  14/50
+2019-04-19 16:33:58,582 [INFO] rnn_prof.simple_rnn: Iteration  14/50 took 9.83s
+2019-04-19 16:33:58,582 [INFO] rnn_prof.simple_rnn: Performing training iteration  15/50
+2019-04-19 16:34:08,343 [INFO] rnn_prof.simple_rnn: Iteration  15/50 took 9.76s
+2019-04-19 16:34:08,345 [INFO] rnn_prof.simple_rnn: Performing training iteration  16/50
+2019-04-19 16:34:18,822 [INFO] rnn_prof.simple_rnn: Iteration  16/50 took 10.48s
+2019-04-19 16:34:18,822 [INFO] rnn_prof.simple_rnn: Performing training iteration  17/50
+2019-04-19 16:34:29,551 [INFO] rnn_prof.simple_rnn: Iteration  17/50 took 10.73s
+2019-04-19 16:34:29,551 [INFO] rnn_prof.simple_rnn: Performing training iteration  18/50
+2019-04-19 16:34:40,044 [INFO] rnn_prof.simple_rnn: Iteration  18/50 took 10.49s
+2019-04-19 16:34:40,045 [INFO] rnn_prof.simple_rnn: Performing training iteration  19/50
+2019-04-19 16:34:50,748 [INFO] rnn_prof.simple_rnn: Iteration  19/50 took 10.70s
+2019-04-19 16:34:50,748 [INFO] rnn_prof.simple_rnn: Performing training iteration  20/50
+2019-04-19 16:35:01,863 [INFO] rnn_prof.simple_rnn: Iteration  20/50 took 11.11s
+2019-04-19 16:35:01,863 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  20/50
+2019-04-19 16:35:05,168 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70251; Train AUC: 0.71766
+2019-04-19 16:35:05,169 [INFO] rnn_prof.simple_rnn: Running tests for iteration  20/50
+2019-04-19 16:35:06,115 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.69947; Test AUC: 0.71111
+2019-04-19 16:35:06,116 [INFO] rnn_prof.simple_rnn: Performing training iteration  21/50
+2019-04-19 16:35:16,787 [INFO] rnn_prof.simple_rnn: Iteration  21/50 took 10.67s
+2019-04-19 16:35:16,787 [INFO] rnn_prof.simple_rnn: Performing training iteration  22/50
+2019-04-19 16:35:27,729 [INFO] rnn_prof.simple_rnn: Iteration  22/50 took 10.94s
+2019-04-19 16:35:27,729 [INFO] rnn_prof.simple_rnn: Performing training iteration  23/50
+2019-04-19 16:35:37,899 [INFO] rnn_prof.simple_rnn: Iteration  23/50 took 10.17s
+2019-04-19 16:35:37,900 [INFO] rnn_prof.simple_rnn: Performing training iteration  24/50
+2019-04-19 16:35:48,416 [INFO] rnn_prof.simple_rnn: Iteration  24/50 took 10.52s
+2019-04-19 16:35:48,417 [INFO] rnn_prof.simple_rnn: Performing training iteration  25/50
+2019-04-19 16:35:58,785 [INFO] rnn_prof.simple_rnn: Iteration  25/50 took 10.37s
+2019-04-19 16:35:58,785 [INFO] rnn_prof.simple_rnn: Performing training iteration  26/50
+2019-04-19 16:36:09,385 [INFO] rnn_prof.simple_rnn: Iteration  26/50 took 10.60s
+2019-04-19 16:36:09,386 [INFO] rnn_prof.simple_rnn: Performing training iteration  27/50
+2019-04-19 16:36:20,391 [INFO] rnn_prof.simple_rnn: Iteration  27/50 took 11.00s
+2019-04-19 16:36:20,391 [INFO] rnn_prof.simple_rnn: Performing training iteration  28/50
+2019-04-19 16:36:30,672 [INFO] rnn_prof.simple_rnn: Iteration  28/50 took 10.28s
+2019-04-19 16:36:30,672 [INFO] rnn_prof.simple_rnn: Performing training iteration  29/50
+2019-04-19 16:36:41,877 [INFO] rnn_prof.simple_rnn: Iteration  29/50 took 11.20s
+2019-04-19 16:36:41,877 [INFO] rnn_prof.simple_rnn: Performing training iteration  30/50
+2019-04-19 16:36:51,730 [INFO] rnn_prof.simple_rnn: Iteration  30/50 took 9.85s
+2019-04-19 16:36:51,730 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  30/50
+2019-04-19 16:36:54,866 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70630; Train AUC: 0.72082
+2019-04-19 16:36:54,866 [INFO] rnn_prof.simple_rnn: Running tests for iteration  30/50
+2019-04-19 16:36:55,757 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.70329; Test AUC: 0.71517
+2019-04-19 16:36:55,757 [INFO] rnn_prof.simple_rnn: Performing training iteration  31/50
+2019-04-19 16:37:05,376 [INFO] rnn_prof.simple_rnn: Iteration  31/50 took 9.62s
+2019-04-19 16:37:05,376 [INFO] rnn_prof.simple_rnn: Performing training iteration  32/50
+2019-04-19 16:37:15,979 [INFO] rnn_prof.simple_rnn: Iteration  32/50 took 10.60s
+2019-04-19 16:37:15,979 [INFO] rnn_prof.simple_rnn: Performing training iteration  33/50
+2019-04-19 16:37:27,403 [INFO] rnn_prof.simple_rnn: Iteration  33/50 took 11.41s
+2019-04-19 16:37:27,403 [INFO] rnn_prof.simple_rnn: Performing training iteration  34/50
+2019-04-19 16:37:38,671 [INFO] rnn_prof.simple_rnn: Iteration  34/50 took 11.27s
+2019-04-19 16:37:38,671 [INFO] rnn_prof.simple_rnn: Performing training iteration  35/50
+2019-04-19 16:37:49,545 [INFO] rnn_prof.simple_rnn: Iteration  35/50 took 10.87s
+2019-04-19 16:37:49,545 [INFO] rnn_prof.simple_rnn: Performing training iteration  36/50
+2019-04-19 16:37:59,693 [INFO] rnn_prof.simple_rnn: Iteration  36/50 took 10.15s
+2019-04-19 16:37:59,693 [INFO] rnn_prof.simple_rnn: Performing training iteration  37/50
+2019-04-19 16:38:10,111 [INFO] rnn_prof.simple_rnn: Iteration  37/50 took 10.42s
+2019-04-19 16:38:10,111 [INFO] rnn_prof.simple_rnn: Performing training iteration  38/50
+2019-04-19 16:38:19,894 [INFO] rnn_prof.simple_rnn: Iteration  38/50 took 9.78s
+2019-04-19 16:38:19,894 [INFO] rnn_prof.simple_rnn: Performing training iteration  39/50
+2019-04-19 16:38:30,604 [INFO] rnn_prof.simple_rnn: Iteration  39/50 took 10.71s
+2019-04-19 16:38:30,604 [INFO] rnn_prof.simple_rnn: Performing training iteration  40/50
+2019-04-19 16:38:41,369 [INFO] rnn_prof.simple_rnn: Iteration  40/50 took 10.76s
+2019-04-19 16:38:41,369 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  40/50
+2019-04-19 16:38:44,614 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70982; Train AUC: 0.72654
+2019-04-19 16:38:44,615 [INFO] rnn_prof.simple_rnn: Running tests for iteration  40/50
+2019-04-19 16:38:45,573 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.70530; Test AUC: 0.72044
+2019-04-19 16:38:45,573 [INFO] rnn_prof.simple_rnn: Performing training iteration  41/50
+2019-04-19 16:38:55,964 [INFO] rnn_prof.simple_rnn: Iteration  41/50 took 10.39s
+2019-04-19 16:38:55,964 [INFO] rnn_prof.simple_rnn: Performing training iteration  42/50
+2019-04-19 16:39:07,033 [INFO] rnn_prof.simple_rnn: Iteration  42/50 took 11.07s
+2019-04-19 16:39:07,034 [INFO] rnn_prof.simple_rnn: Performing training iteration  43/50
+2019-04-19 16:39:18,970 [INFO] rnn_prof.simple_rnn: Iteration  43/50 took 11.94s
+2019-04-19 16:39:18,970 [INFO] rnn_prof.simple_rnn: Performing training iteration  44/50
+2019-04-19 16:39:28,442 [INFO] rnn_prof.simple_rnn: Iteration  44/50 took 9.47s
+2019-04-19 16:39:28,442 [INFO] rnn_prof.simple_rnn: Performing training iteration  45/50
+2019-04-19 16:39:38,947 [INFO] rnn_prof.simple_rnn: Iteration  45/50 took 10.50s
+2019-04-19 16:39:38,947 [INFO] rnn_prof.simple_rnn: Performing training iteration  46/50
+2019-04-19 16:39:49,096 [INFO] rnn_prof.simple_rnn: Iteration  46/50 took 10.15s
+2019-04-19 16:39:49,096 [INFO] rnn_prof.simple_rnn: Performing training iteration  47/50
+2019-04-19 16:39:59,323 [INFO] rnn_prof.simple_rnn: Iteration  47/50 took 10.23s
+2019-04-19 16:39:59,323 [INFO] rnn_prof.simple_rnn: Performing training iteration  48/50
+2019-04-19 16:40:10,120 [INFO] rnn_prof.simple_rnn: Iteration  48/50 took 10.80s
+2019-04-19 16:40:10,120 [INFO] rnn_prof.simple_rnn: Performing training iteration  49/50
+2019-04-19 16:40:22,186 [INFO] rnn_prof.simple_rnn: Iteration  49/50 took 12.07s
+2019-04-19 16:40:22,186 [INFO] rnn_prof.simple_rnn: Performing training iteration  50/50
+2019-04-19 16:40:33,092 [INFO] rnn_prof.simple_rnn: Iteration  50/50 took 10.91s
+2019-04-19 16:40:33,092 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  50/50
+2019-04-19 16:40:36,388 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.71103; Train AUC: 0.72918
+2019-04-19 16:40:36,388 [INFO] rnn_prof.simple_rnn: Running tests for iteration  50/50
+2019-04-19 16:40:37,411 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.70667; Test AUC: 0.72284
+2019-04-19 16:40:37,411 [INFO] rnn_prof.run_rnn: Fold 2: Num Interactions: 57987; Test Accuracy: 0.70667; Test AUC: 0.72284
+2019-04-19 16:40:37,457 [INFO] rnn_prof.run_rnn: Beginning fold 3
+2019-04-19 16:40:37,457 [INFO] rnn_prof.run_rnn: Training RNN, fold 3
+2019-04-19 16:40:44,207 [INFO] rnn_prof.simple_rnn: Performing training iteration   1/50
+2019-04-19 16:41:00,897 [INFO] rnn_prof.simple_rnn: Iteration   1/50 took 16.69s
+2019-04-19 16:41:00,897 [INFO] rnn_prof.simple_rnn: Performing training iteration   2/50
+2019-04-19 16:41:11,641 [INFO] rnn_prof.simple_rnn: Iteration   2/50 took 10.74s
+2019-04-19 16:41:11,641 [INFO] rnn_prof.simple_rnn: Performing training iteration   3/50
+2019-04-19 16:41:23,448 [INFO] rnn_prof.simple_rnn: Iteration   3/50 took 11.81s
+2019-04-19 16:41:23,448 [INFO] rnn_prof.simple_rnn: Performing training iteration   4/50
+2019-04-19 16:41:32,195 [INFO] rnn_prof.simple_rnn: Iteration   4/50 took 8.75s
+2019-04-19 16:41:32,195 [INFO] rnn_prof.simple_rnn: Performing training iteration   5/50
+2019-04-19 16:41:40,393 [INFO] rnn_prof.simple_rnn: Iteration   5/50 took 8.20s
+2019-04-19 16:41:40,393 [INFO] rnn_prof.simple_rnn: Performing training iteration   6/50
+2019-04-19 16:41:48,476 [INFO] rnn_prof.simple_rnn: Iteration   6/50 took 8.08s
+2019-04-19 16:41:48,476 [INFO] rnn_prof.simple_rnn: Performing training iteration   7/50
+2019-04-19 16:41:57,240 [INFO] rnn_prof.simple_rnn: Iteration   7/50 took 8.76s
+2019-04-19 16:41:57,240 [INFO] rnn_prof.simple_rnn: Performing training iteration   8/50
+2019-04-19 16:42:07,528 [INFO] rnn_prof.simple_rnn: Iteration   8/50 took 10.29s
+2019-04-19 16:42:07,530 [INFO] rnn_prof.simple_rnn: Performing training iteration   9/50
+2019-04-19 16:42:16,898 [INFO] rnn_prof.simple_rnn: Iteration   9/50 took 9.37s
+2019-04-19 16:42:16,900 [INFO] rnn_prof.simple_rnn: Performing training iteration  10/50
+2019-04-19 16:42:26,021 [INFO] rnn_prof.simple_rnn: Iteration  10/50 took 9.12s
+2019-04-19 16:42:26,021 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  10/50
+2019-04-19 16:42:28,817 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.69317; Train AUC: 0.69493
+2019-04-19 16:42:28,818 [INFO] rnn_prof.simple_rnn: Running tests for iteration  10/50
+2019-04-19 16:42:29,533 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.68643; Test AUC: 0.69811
+2019-04-19 16:42:29,533 [INFO] rnn_prof.simple_rnn: Performing training iteration  11/50
+2019-04-19 16:42:39,062 [INFO] rnn_prof.simple_rnn: Iteration  11/50 took 9.53s
+2019-04-19 16:42:39,062 [INFO] rnn_prof.simple_rnn: Performing training iteration  12/50
+2019-04-19 16:42:47,909 [INFO] rnn_prof.simple_rnn: Iteration  12/50 took 8.85s
+2019-04-19 16:42:47,909 [INFO] rnn_prof.simple_rnn: Performing training iteration  13/50
+2019-04-19 16:42:57,757 [INFO] rnn_prof.simple_rnn: Iteration  13/50 took 9.85s
+2019-04-19 16:42:57,757 [INFO] rnn_prof.simple_rnn: Performing training iteration  14/50
+2019-04-19 16:43:07,318 [INFO] rnn_prof.simple_rnn: Iteration  14/50 took 9.56s
+2019-04-19 16:43:07,318 [INFO] rnn_prof.simple_rnn: Performing training iteration  15/50
+2019-04-19 16:43:16,610 [INFO] rnn_prof.simple_rnn: Iteration  15/50 took 9.29s
+2019-04-19 16:43:16,611 [INFO] rnn_prof.simple_rnn: Performing training iteration  16/50
+2019-04-19 16:43:25,904 [INFO] rnn_prof.simple_rnn: Iteration  16/50 took 9.29s
+2019-04-19 16:43:25,904 [INFO] rnn_prof.simple_rnn: Performing training iteration  17/50
+2019-04-19 16:43:35,430 [INFO] rnn_prof.simple_rnn: Iteration  17/50 took 9.53s
+2019-04-19 16:43:35,431 [INFO] rnn_prof.simple_rnn: Performing training iteration  18/50
+2019-04-19 16:43:45,140 [INFO] rnn_prof.simple_rnn: Iteration  18/50 took 9.71s
+2019-04-19 16:43:45,140 [INFO] rnn_prof.simple_rnn: Performing training iteration  19/50
+2019-04-19 16:43:55,020 [INFO] rnn_prof.simple_rnn: Iteration  19/50 took 9.88s
+2019-04-19 16:43:55,020 [INFO] rnn_prof.simple_rnn: Performing training iteration  20/50
+2019-04-19 16:44:04,345 [INFO] rnn_prof.simple_rnn: Iteration  20/50 took 9.32s
+2019-04-19 16:44:04,345 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  20/50
+2019-04-19 16:44:07,217 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70314; Train AUC: 0.71166
+2019-04-19 16:44:07,217 [INFO] rnn_prof.simple_rnn: Running tests for iteration  20/50
+2019-04-19 16:44:07,759 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.69768; Test AUC: 0.71344
+2019-04-19 16:44:07,760 [INFO] rnn_prof.simple_rnn: Performing training iteration  21/50
+2019-04-19 16:44:17,167 [INFO] rnn_prof.simple_rnn: Iteration  21/50 took 9.41s
+2019-04-19 16:44:17,167 [INFO] rnn_prof.simple_rnn: Performing training iteration  22/50
+2019-04-19 16:44:26,746 [INFO] rnn_prof.simple_rnn: Iteration  22/50 took 9.58s
+2019-04-19 16:44:26,746 [INFO] rnn_prof.simple_rnn: Performing training iteration  23/50
+2019-04-19 16:44:36,236 [INFO] rnn_prof.simple_rnn: Iteration  23/50 took 9.49s
+2019-04-19 16:44:36,237 [INFO] rnn_prof.simple_rnn: Performing training iteration  24/50
+2019-04-19 16:44:46,157 [INFO] rnn_prof.simple_rnn: Iteration  24/50 took 9.92s
+2019-04-19 16:44:46,157 [INFO] rnn_prof.simple_rnn: Performing training iteration  25/50
+2019-04-19 16:44:56,307 [INFO] rnn_prof.simple_rnn: Iteration  25/50 took 10.15s
+2019-04-19 16:44:56,307 [INFO] rnn_prof.simple_rnn: Performing training iteration  26/50
+2019-04-19 16:45:05,604 [INFO] rnn_prof.simple_rnn: Iteration  26/50 took 9.30s
+2019-04-19 16:45:05,604 [INFO] rnn_prof.simple_rnn: Performing training iteration  27/50
+2019-04-19 16:45:15,218 [INFO] rnn_prof.simple_rnn: Iteration  27/50 took 9.61s
+2019-04-19 16:45:15,218 [INFO] rnn_prof.simple_rnn: Performing training iteration  28/50
+2019-04-19 16:45:24,188 [INFO] rnn_prof.simple_rnn: Iteration  28/50 took 8.97s
+2019-04-19 16:45:24,188 [INFO] rnn_prof.simple_rnn: Performing training iteration  29/50
+2019-04-19 16:45:33,638 [INFO] rnn_prof.simple_rnn: Iteration  29/50 took 9.45s
+2019-04-19 16:45:33,638 [INFO] rnn_prof.simple_rnn: Performing training iteration  30/50
+2019-04-19 16:45:42,959 [INFO] rnn_prof.simple_rnn: Iteration  30/50 took 9.32s
+2019-04-19 16:45:42,959 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  30/50
+2019-04-19 16:45:45,523 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70733; Train AUC: 0.71958
+2019-04-19 16:45:45,523 [INFO] rnn_prof.simple_rnn: Running tests for iteration  30/50
+2019-04-19 16:45:46,031 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.70275; Test AUC: 0.71824
+2019-04-19 16:45:46,031 [INFO] rnn_prof.simple_rnn: Performing training iteration  31/50
+2019-04-19 16:45:54,122 [INFO] rnn_prof.simple_rnn: Iteration  31/50 took 8.09s
+2019-04-19 16:45:54,122 [INFO] rnn_prof.simple_rnn: Performing training iteration  32/50
+2019-04-19 16:46:02,205 [INFO] rnn_prof.simple_rnn: Iteration  32/50 took 8.08s
+2019-04-19 16:46:02,205 [INFO] rnn_prof.simple_rnn: Performing training iteration  33/50
+2019-04-19 16:46:10,292 [INFO] rnn_prof.simple_rnn: Iteration  33/50 took 8.09s
+2019-04-19 16:46:10,292 [INFO] rnn_prof.simple_rnn: Performing training iteration  34/50
+2019-04-19 16:46:18,451 [INFO] rnn_prof.simple_rnn: Iteration  34/50 took 8.16s
+2019-04-19 16:46:18,451 [INFO] rnn_prof.simple_rnn: Performing training iteration  35/50
+2019-04-19 16:46:26,540 [INFO] rnn_prof.simple_rnn: Iteration  35/50 took 8.09s
+2019-04-19 16:46:26,542 [INFO] rnn_prof.simple_rnn: Performing training iteration  36/50
+2019-04-19 16:46:34,632 [INFO] rnn_prof.simple_rnn: Iteration  36/50 took 8.09s
+2019-04-19 16:46:34,632 [INFO] rnn_prof.simple_rnn: Performing training iteration  37/50
+2019-04-19 16:46:42,717 [INFO] rnn_prof.simple_rnn: Iteration  37/50 took 8.08s
+2019-04-19 16:46:42,717 [INFO] rnn_prof.simple_rnn: Performing training iteration  38/50
+2019-04-19 16:46:50,799 [INFO] rnn_prof.simple_rnn: Iteration  38/50 took 8.08s
+2019-04-19 16:46:50,799 [INFO] rnn_prof.simple_rnn: Performing training iteration  39/50
+2019-04-19 16:46:58,893 [INFO] rnn_prof.simple_rnn: Iteration  39/50 took 8.09s
+2019-04-19 16:46:58,893 [INFO] rnn_prof.simple_rnn: Performing training iteration  40/50
+2019-04-19 16:47:06,984 [INFO] rnn_prof.simple_rnn: Iteration  40/50 took 8.09s
+2019-04-19 16:47:06,984 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  40/50
+2019-04-19 16:47:09,558 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.71017; Train AUC: 0.72420
+2019-04-19 16:47:09,558 [INFO] rnn_prof.simple_rnn: Running tests for iteration  40/50
+2019-04-19 16:47:10,042 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.70497; Test AUC: 0.72203
+2019-04-19 16:47:10,042 [INFO] rnn_prof.simple_rnn: Performing training iteration  41/50
+2019-04-19 16:47:18,150 [INFO] rnn_prof.simple_rnn: Iteration  41/50 took 8.11s
+2019-04-19 16:47:18,150 [INFO] rnn_prof.simple_rnn: Performing training iteration  42/50
+2019-04-19 16:47:26,243 [INFO] rnn_prof.simple_rnn: Iteration  42/50 took 8.09s
+2019-04-19 16:47:26,244 [INFO] rnn_prof.simple_rnn: Performing training iteration  43/50
+2019-04-19 16:47:34,342 [INFO] rnn_prof.simple_rnn: Iteration  43/50 took 8.10s
+2019-04-19 16:47:34,342 [INFO] rnn_prof.simple_rnn: Performing training iteration  44/50
+2019-04-19 16:47:42,449 [INFO] rnn_prof.simple_rnn: Iteration  44/50 took 8.11s
+2019-04-19 16:47:42,449 [INFO] rnn_prof.simple_rnn: Performing training iteration  45/50
+2019-04-19 16:47:50,608 [INFO] rnn_prof.simple_rnn: Iteration  45/50 took 8.16s
+2019-04-19 16:47:50,610 [INFO] rnn_prof.simple_rnn: Performing training iteration  46/50
+2019-04-19 16:47:58,677 [INFO] rnn_prof.simple_rnn: Iteration  46/50 took 8.07s
+2019-04-19 16:47:58,677 [INFO] rnn_prof.simple_rnn: Performing training iteration  47/50
+2019-04-19 16:48:06,742 [INFO] rnn_prof.simple_rnn: Iteration  47/50 took 8.07s
+2019-04-19 16:48:06,743 [INFO] rnn_prof.simple_rnn: Performing training iteration  48/50
+2019-04-19 16:48:14,830 [INFO] rnn_prof.simple_rnn: Iteration  48/50 took 8.09s
+2019-04-19 16:48:14,830 [INFO] rnn_prof.simple_rnn: Performing training iteration  49/50
+2019-04-19 16:48:22,905 [INFO] rnn_prof.simple_rnn: Iteration  49/50 took 8.07s
+2019-04-19 16:48:22,907 [INFO] rnn_prof.simple_rnn: Performing training iteration  50/50
+2019-04-19 16:48:30,964 [INFO] rnn_prof.simple_rnn: Iteration  50/50 took 8.06s
+2019-04-19 16:48:30,964 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  50/50
+2019-04-19 16:48:33,481 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.71084; Train AUC: 0.72581
+2019-04-19 16:48:33,481 [INFO] rnn_prof.simple_rnn: Running tests for iteration  50/50
+2019-04-19 16:48:33,978 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.70488; Test AUC: 0.72303
+2019-04-19 16:48:33,978 [INFO] rnn_prof.run_rnn: Fold 3: Num Interactions: 49812; Test Accuracy: 0.70488; Test AUC: 0.72303
+2019-04-19 16:48:34,018 [INFO] rnn_prof.run_rnn: Beginning fold 4
+2019-04-19 16:48:34,018 [INFO] rnn_prof.run_rnn: Training RNN, fold 4
+2019-04-19 16:48:37,570 [INFO] rnn_prof.simple_rnn: Performing training iteration   1/50
+2019-04-19 16:48:48,244 [INFO] rnn_prof.simple_rnn: Iteration   1/50 took 10.67s
+2019-04-19 16:48:48,244 [INFO] rnn_prof.simple_rnn: Performing training iteration   2/50
+2019-04-19 16:48:56,154 [INFO] rnn_prof.simple_rnn: Iteration   2/50 took 7.91s
+2019-04-19 16:48:56,154 [INFO] rnn_prof.simple_rnn: Performing training iteration   3/50
+2019-04-19 16:49:04,074 [INFO] rnn_prof.simple_rnn: Iteration   3/50 took 7.92s
+2019-04-19 16:49:04,074 [INFO] rnn_prof.simple_rnn: Performing training iteration   4/50
+2019-04-19 16:49:12,091 [INFO] rnn_prof.simple_rnn: Iteration   4/50 took 8.02s
+2019-04-19 16:49:12,091 [INFO] rnn_prof.simple_rnn: Performing training iteration   5/50
+2019-04-19 16:49:20,068 [INFO] rnn_prof.simple_rnn: Iteration   5/50 took 7.98s
+2019-04-19 16:49:20,069 [INFO] rnn_prof.simple_rnn: Performing training iteration   6/50
+2019-04-19 16:49:28,060 [INFO] rnn_prof.simple_rnn: Iteration   6/50 took 7.99s
+2019-04-19 16:49:28,060 [INFO] rnn_prof.simple_rnn: Performing training iteration   7/50
+2019-04-19 16:49:36,049 [INFO] rnn_prof.simple_rnn: Iteration   7/50 took 7.99s
+2019-04-19 16:49:36,049 [INFO] rnn_prof.simple_rnn: Performing training iteration   8/50
+2019-04-19 16:49:44,029 [INFO] rnn_prof.simple_rnn: Iteration   8/50 took 7.98s
+2019-04-19 16:49:44,029 [INFO] rnn_prof.simple_rnn: Performing training iteration   9/50
+2019-04-19 16:49:52,002 [INFO] rnn_prof.simple_rnn: Iteration   9/50 took 7.97s
+2019-04-19 16:49:52,002 [INFO] rnn_prof.simple_rnn: Performing training iteration  10/50
+2019-04-19 16:49:59,938 [INFO] rnn_prof.simple_rnn: Iteration  10/50 took 7.94s
+2019-04-19 16:49:59,938 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  10/50
+2019-04-19 16:50:02,427 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.69061; Train AUC: 0.69447
+2019-04-19 16:50:02,428 [INFO] rnn_prof.simple_rnn: Running tests for iteration  10/50
+2019-04-19 16:50:02,929 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.69254; Test AUC: 0.68767
+2019-04-19 16:50:02,929 [INFO] rnn_prof.simple_rnn: Performing training iteration  11/50
+2019-04-19 16:50:10,933 [INFO] rnn_prof.simple_rnn: Iteration  11/50 took 8.00s
+2019-04-19 16:50:10,933 [INFO] rnn_prof.simple_rnn: Performing training iteration  12/50
+2019-04-19 16:50:18,912 [INFO] rnn_prof.simple_rnn: Iteration  12/50 took 7.98s
+2019-04-19 16:50:18,912 [INFO] rnn_prof.simple_rnn: Performing training iteration  13/50
+2019-04-19 16:50:26,902 [INFO] rnn_prof.simple_rnn: Iteration  13/50 took 7.99s
+2019-04-19 16:50:26,902 [INFO] rnn_prof.simple_rnn: Performing training iteration  14/50
+2019-04-19 16:50:34,912 [INFO] rnn_prof.simple_rnn: Iteration  14/50 took 8.01s
+2019-04-19 16:50:34,912 [INFO] rnn_prof.simple_rnn: Performing training iteration  15/50
+2019-04-19 16:50:42,919 [INFO] rnn_prof.simple_rnn: Iteration  15/50 took 8.01s
+2019-04-19 16:50:42,919 [INFO] rnn_prof.simple_rnn: Performing training iteration  16/50
+2019-04-19 16:50:50,939 [INFO] rnn_prof.simple_rnn: Iteration  16/50 took 8.02s
+2019-04-19 16:50:50,939 [INFO] rnn_prof.simple_rnn: Performing training iteration  17/50
+2019-04-19 16:50:58,955 [INFO] rnn_prof.simple_rnn: Iteration  17/50 took 8.02s
+2019-04-19 16:50:58,955 [INFO] rnn_prof.simple_rnn: Performing training iteration  18/50
+2019-04-19 16:51:06,965 [INFO] rnn_prof.simple_rnn: Iteration  18/50 took 8.01s
+2019-04-19 16:51:06,965 [INFO] rnn_prof.simple_rnn: Performing training iteration  19/50
+2019-04-19 16:51:14,993 [INFO] rnn_prof.simple_rnn: Iteration  19/50 took 8.03s
+2019-04-19 16:51:14,993 [INFO] rnn_prof.simple_rnn: Performing training iteration  20/50
+2019-04-19 16:51:23,820 [INFO] rnn_prof.simple_rnn: Iteration  20/50 took 8.83s
+2019-04-19 16:51:23,820 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  20/50
+2019-04-19 16:51:26,715 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70180; Train AUC: 0.71647
+2019-04-19 16:51:26,715 [INFO] rnn_prof.simple_rnn: Running tests for iteration  20/50
+2019-04-19 16:51:27,503 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.70364; Test AUC: 0.71036
+2019-04-19 16:51:27,503 [INFO] rnn_prof.simple_rnn: Performing training iteration  21/50
+2019-04-19 16:51:36,664 [INFO] rnn_prof.simple_rnn: Iteration  21/50 took 9.16s
+2019-04-19 16:51:36,664 [INFO] rnn_prof.simple_rnn: Performing training iteration  22/50
+2019-04-19 16:51:45,872 [INFO] rnn_prof.simple_rnn: Iteration  22/50 took 9.21s
+2019-04-19 16:51:45,872 [INFO] rnn_prof.simple_rnn: Performing training iteration  23/50
+2019-04-19 16:51:55,064 [INFO] rnn_prof.simple_rnn: Iteration  23/50 took 9.19s
+2019-04-19 16:51:55,064 [INFO] rnn_prof.simple_rnn: Performing training iteration  24/50
+2019-04-19 16:52:04,309 [INFO] rnn_prof.simple_rnn: Iteration  24/50 took 9.24s
+2019-04-19 16:52:04,309 [INFO] rnn_prof.simple_rnn: Performing training iteration  25/50
+2019-04-19 16:52:13,454 [INFO] rnn_prof.simple_rnn: Iteration  25/50 took 9.14s
+2019-04-19 16:52:13,454 [INFO] rnn_prof.simple_rnn: Performing training iteration  26/50
+2019-04-19 16:52:22,589 [INFO] rnn_prof.simple_rnn: Iteration  26/50 took 9.14s
+2019-04-19 16:52:22,590 [INFO] rnn_prof.simple_rnn: Performing training iteration  27/50
+2019-04-19 16:52:31,711 [INFO] rnn_prof.simple_rnn: Iteration  27/50 took 9.12s
+2019-04-19 16:52:31,711 [INFO] rnn_prof.simple_rnn: Performing training iteration  28/50
+2019-04-19 16:52:40,855 [INFO] rnn_prof.simple_rnn: Iteration  28/50 took 9.14s
+2019-04-19 16:52:40,855 [INFO] rnn_prof.simple_rnn: Performing training iteration  29/50
+2019-04-19 16:52:49,992 [INFO] rnn_prof.simple_rnn: Iteration  29/50 took 9.14s
+2019-04-19 16:52:49,992 [INFO] rnn_prof.simple_rnn: Performing training iteration  30/50
+2019-04-19 16:52:59,119 [INFO] rnn_prof.simple_rnn: Iteration  30/50 took 9.13s
+2019-04-19 16:52:59,119 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  30/50
+2019-04-19 16:53:02,007 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70634; Train AUC: 0.72345
+2019-04-19 16:53:02,007 [INFO] rnn_prof.simple_rnn: Running tests for iteration  30/50
+2019-04-19 16:53:02,771 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.70788; Test AUC: 0.71802
+2019-04-19 16:53:02,771 [INFO] rnn_prof.simple_rnn: Performing training iteration  31/50
+2019-04-19 16:53:11,883 [INFO] rnn_prof.simple_rnn: Iteration  31/50 took 9.11s
+2019-04-19 16:53:11,883 [INFO] rnn_prof.simple_rnn: Performing training iteration  32/50
+2019-04-19 16:53:21,027 [INFO] rnn_prof.simple_rnn: Iteration  32/50 took 9.14s
+2019-04-19 16:53:21,027 [INFO] rnn_prof.simple_rnn: Performing training iteration  33/50
+2019-04-19 16:53:30,155 [INFO] rnn_prof.simple_rnn: Iteration  33/50 took 9.13s
+2019-04-19 16:53:30,155 [INFO] rnn_prof.simple_rnn: Performing training iteration  34/50
+2019-04-19 16:53:39,284 [INFO] rnn_prof.simple_rnn: Iteration  34/50 took 9.13s
+2019-04-19 16:53:39,284 [INFO] rnn_prof.simple_rnn: Performing training iteration  35/50
+2019-04-19 16:53:48,405 [INFO] rnn_prof.simple_rnn: Iteration  35/50 took 9.12s
+2019-04-19 16:53:48,405 [INFO] rnn_prof.simple_rnn: Performing training iteration  36/50
+2019-04-19 16:53:57,542 [INFO] rnn_prof.simple_rnn: Iteration  36/50 took 9.14s
+2019-04-19 16:53:57,545 [INFO] rnn_prof.simple_rnn: Performing training iteration  37/50
+2019-04-19 16:54:06,722 [INFO] rnn_prof.simple_rnn: Iteration  37/50 took 9.18s
+2019-04-19 16:54:06,723 [INFO] rnn_prof.simple_rnn: Performing training iteration  38/50
+2019-04-19 16:54:15,902 [INFO] rnn_prof.simple_rnn: Iteration  38/50 took 9.18s
+2019-04-19 16:54:15,902 [INFO] rnn_prof.simple_rnn: Performing training iteration  39/50
+2019-04-19 16:54:25,099 [INFO] rnn_prof.simple_rnn: Iteration  39/50 took 9.20s
+2019-04-19 16:54:25,099 [INFO] rnn_prof.simple_rnn: Performing training iteration  40/50
+2019-04-19 16:54:34,296 [INFO] rnn_prof.simple_rnn: Iteration  40/50 took 9.20s
+2019-04-19 16:54:34,297 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  40/50
+2019-04-19 16:54:37,180 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70870; Train AUC: 0.72718
+2019-04-19 16:54:37,180 [INFO] rnn_prof.simple_rnn: Running tests for iteration  40/50
+2019-04-19 16:54:37,947 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.70882; Test AUC: 0.72135
+2019-04-19 16:54:37,947 [INFO] rnn_prof.simple_rnn: Performing training iteration  41/50
+2019-04-19 16:54:47,089 [INFO] rnn_prof.simple_rnn: Iteration  41/50 took 9.14s
+2019-04-19 16:54:47,089 [INFO] rnn_prof.simple_rnn: Performing training iteration  42/50
+2019-04-19 16:54:56,221 [INFO] rnn_prof.simple_rnn: Iteration  42/50 took 9.13s
+2019-04-19 16:54:56,221 [INFO] rnn_prof.simple_rnn: Performing training iteration  43/50
+2019-04-19 16:55:05,767 [INFO] rnn_prof.simple_rnn: Iteration  43/50 took 9.55s
+2019-04-19 16:55:05,767 [INFO] rnn_prof.simple_rnn: Performing training iteration  44/50
+2019-04-19 16:55:15,473 [INFO] rnn_prof.simple_rnn: Iteration  44/50 took 9.71s
+2019-04-19 16:55:15,473 [INFO] rnn_prof.simple_rnn: Performing training iteration  45/50
+2019-04-19 16:55:25,233 [INFO] rnn_prof.simple_rnn: Iteration  45/50 took 9.76s
+2019-04-19 16:55:25,233 [INFO] rnn_prof.simple_rnn: Performing training iteration  46/50
+2019-04-19 16:55:34,458 [INFO] rnn_prof.simple_rnn: Iteration  46/50 took 9.22s
+2019-04-19 16:55:34,458 [INFO] rnn_prof.simple_rnn: Performing training iteration  47/50
+2019-04-19 16:55:43,518 [INFO] rnn_prof.simple_rnn: Iteration  47/50 took 9.06s
+2019-04-19 16:55:43,518 [INFO] rnn_prof.simple_rnn: Performing training iteration  48/50
+2019-04-19 16:55:52,563 [INFO] rnn_prof.simple_rnn: Iteration  48/50 took 9.05s
+2019-04-19 16:55:52,564 [INFO] rnn_prof.simple_rnn: Performing training iteration  49/50
+2019-04-19 16:56:01,609 [INFO] rnn_prof.simple_rnn: Iteration  49/50 took 9.05s
+2019-04-19 16:56:01,609 [INFO] rnn_prof.simple_rnn: Performing training iteration  50/50
+2019-04-19 16:56:10,685 [INFO] rnn_prof.simple_rnn: Iteration  50/50 took 9.08s
+2019-04-19 16:56:10,685 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  50/50
+2019-04-19 16:56:13,572 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70938; Train AUC: 0.72819
+2019-04-19 16:56:13,572 [INFO] rnn_prof.simple_rnn: Running tests for iteration  50/50
+2019-04-19 16:56:14,339 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.70944; Test AUC: 0.72108
+2019-04-19 16:56:14,339 [INFO] rnn_prof.run_rnn: Fold 4: Num Interactions: 52531; Test Accuracy: 0.70944; Test AUC: 0.72108
+2019-04-19 16:56:14,382 [INFO] rnn_prof.run_rnn: Beginning fold 5
+2019-04-19 16:56:14,382 [INFO] rnn_prof.run_rnn: Training RNN, fold 5
+2019-04-19 16:56:21,355 [INFO] rnn_prof.simple_rnn: Performing training iteration   1/50
+2019-04-19 16:56:35,703 [INFO] rnn_prof.simple_rnn: Iteration   1/50 took 14.35s
+2019-04-19 16:56:35,704 [INFO] rnn_prof.simple_rnn: Performing training iteration   2/50
+2019-04-19 16:56:44,511 [INFO] rnn_prof.simple_rnn: Iteration   2/50 took 8.81s
+2019-04-19 16:56:44,511 [INFO] rnn_prof.simple_rnn: Performing training iteration   3/50
+2019-04-19 16:56:53,358 [INFO] rnn_prof.simple_rnn: Iteration   3/50 took 8.85s
+2019-04-19 16:56:53,358 [INFO] rnn_prof.simple_rnn: Performing training iteration   4/50
+2019-04-19 16:57:02,176 [INFO] rnn_prof.simple_rnn: Iteration   4/50 took 8.82s
+2019-04-19 16:57:02,176 [INFO] rnn_prof.simple_rnn: Performing training iteration   5/50
+2019-04-19 16:57:11,010 [INFO] rnn_prof.simple_rnn: Iteration   5/50 took 8.83s
+2019-04-19 16:57:11,010 [INFO] rnn_prof.simple_rnn: Performing training iteration   6/50
+2019-04-19 16:57:19,848 [INFO] rnn_prof.simple_rnn: Iteration   6/50 took 8.84s
+2019-04-19 16:57:19,848 [INFO] rnn_prof.simple_rnn: Performing training iteration   7/50
+2019-04-19 16:57:28,695 [INFO] rnn_prof.simple_rnn: Iteration   7/50 took 8.85s
+2019-04-19 16:57:28,695 [INFO] rnn_prof.simple_rnn: Performing training iteration   8/50
+2019-04-19 16:57:37,554 [INFO] rnn_prof.simple_rnn: Iteration   8/50 took 8.86s
+2019-04-19 16:57:37,554 [INFO] rnn_prof.simple_rnn: Performing training iteration   9/50
+2019-04-19 16:57:46,420 [INFO] rnn_prof.simple_rnn: Iteration   9/50 took 8.87s
+2019-04-19 16:57:46,420 [INFO] rnn_prof.simple_rnn: Performing training iteration  10/50
+2019-04-19 16:57:55,306 [INFO] rnn_prof.simple_rnn: Iteration  10/50 took 8.89s
+2019-04-19 16:57:55,306 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  10/50
+2019-04-19 16:57:58,028 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.68653; Train AUC: 0.69361
+2019-04-19 16:57:58,028 [INFO] rnn_prof.simple_rnn: Running tests for iteration  10/50
+2019-04-19 16:57:58,855 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.67550; Test AUC: 0.68217
+2019-04-19 16:57:58,855 [INFO] rnn_prof.simple_rnn: Performing training iteration  11/50
+2019-04-19 16:58:07,773 [INFO] rnn_prof.simple_rnn: Iteration  11/50 took 8.92s
+2019-04-19 16:58:07,773 [INFO] rnn_prof.simple_rnn: Performing training iteration  12/50
+2019-04-19 16:58:16,651 [INFO] rnn_prof.simple_rnn: Iteration  12/50 took 8.88s
+2019-04-19 16:58:16,653 [INFO] rnn_prof.simple_rnn: Performing training iteration  13/50
+2019-04-19 16:58:25,578 [INFO] rnn_prof.simple_rnn: Iteration  13/50 took 8.93s
+2019-04-19 16:58:25,579 [INFO] rnn_prof.simple_rnn: Performing training iteration  14/50
+2019-04-19 16:58:34,538 [INFO] rnn_prof.simple_rnn: Iteration  14/50 took 8.96s
+2019-04-19 16:58:34,538 [INFO] rnn_prof.simple_rnn: Performing training iteration  15/50
+2019-04-19 16:58:43,469 [INFO] rnn_prof.simple_rnn: Iteration  15/50 took 8.93s
+2019-04-19 16:58:43,469 [INFO] rnn_prof.simple_rnn: Performing training iteration  16/50
+2019-04-19 16:58:52,382 [INFO] rnn_prof.simple_rnn: Iteration  16/50 took 8.91s
+2019-04-19 16:58:52,382 [INFO] rnn_prof.simple_rnn: Performing training iteration  17/50
+2019-04-19 16:59:01,292 [INFO] rnn_prof.simple_rnn: Iteration  17/50 took 8.91s
+2019-04-19 16:59:01,292 [INFO] rnn_prof.simple_rnn: Performing training iteration  18/50
+2019-04-19 16:59:10,222 [INFO] rnn_prof.simple_rnn: Iteration  18/50 took 8.93s
+2019-04-19 16:59:10,224 [INFO] rnn_prof.simple_rnn: Performing training iteration  19/50
+2019-04-19 16:59:19,192 [INFO] rnn_prof.simple_rnn: Iteration  19/50 took 8.97s
+2019-04-19 16:59:19,192 [INFO] rnn_prof.simple_rnn: Performing training iteration  20/50
+2019-04-19 16:59:28,132 [INFO] rnn_prof.simple_rnn: Iteration  20/50 took 8.94s
+2019-04-19 16:59:28,134 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  20/50
+2019-04-19 16:59:30,915 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70394; Train AUC: 0.71375
+2019-04-19 16:59:30,915 [INFO] rnn_prof.simple_rnn: Running tests for iteration  20/50
+2019-04-19 16:59:31,751 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.69434; Test AUC: 0.70124
+2019-04-19 16:59:31,751 [INFO] rnn_prof.simple_rnn: Performing training iteration  21/50
+2019-04-19 16:59:40,681 [INFO] rnn_prof.simple_rnn: Iteration  21/50 took 8.93s
+2019-04-19 16:59:40,681 [INFO] rnn_prof.simple_rnn: Performing training iteration  22/50
+2019-04-19 16:59:49,617 [INFO] rnn_prof.simple_rnn: Iteration  22/50 took 8.94s
+2019-04-19 16:59:49,617 [INFO] rnn_prof.simple_rnn: Performing training iteration  23/50
+2019-04-19 16:59:58,555 [INFO] rnn_prof.simple_rnn: Iteration  23/50 took 8.94s
+2019-04-19 16:59:58,555 [INFO] rnn_prof.simple_rnn: Performing training iteration  24/50
+2019-04-19 17:00:07,504 [INFO] rnn_prof.simple_rnn: Iteration  24/50 took 8.95s
+2019-04-19 17:00:07,504 [INFO] rnn_prof.simple_rnn: Performing training iteration  25/50
+2019-04-19 17:00:16,430 [INFO] rnn_prof.simple_rnn: Iteration  25/50 took 8.93s
+2019-04-19 17:00:16,431 [INFO] rnn_prof.simple_rnn: Performing training iteration  26/50
+2019-04-19 17:00:25,358 [INFO] rnn_prof.simple_rnn: Iteration  26/50 took 8.93s
+2019-04-19 17:00:25,358 [INFO] rnn_prof.simple_rnn: Performing training iteration  27/50
+2019-04-19 17:00:34,312 [INFO] rnn_prof.simple_rnn: Iteration  27/50 took 8.95s
+2019-04-19 17:00:34,312 [INFO] rnn_prof.simple_rnn: Performing training iteration  28/50
+2019-04-19 17:00:43,257 [INFO] rnn_prof.simple_rnn: Iteration  28/50 took 8.95s
+2019-04-19 17:00:43,257 [INFO] rnn_prof.simple_rnn: Performing training iteration  29/50
+2019-04-19 17:00:52,188 [INFO] rnn_prof.simple_rnn: Iteration  29/50 took 8.93s
+2019-04-19 17:00:52,188 [INFO] rnn_prof.simple_rnn: Performing training iteration  30/50
+2019-04-19 17:01:01,157 [INFO] rnn_prof.simple_rnn: Iteration  30/50 took 8.97s
+2019-04-19 17:01:01,157 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  30/50
+2019-04-19 17:01:03,946 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70735; Train AUC: 0.72090
+2019-04-19 17:01:03,946 [INFO] rnn_prof.simple_rnn: Running tests for iteration  30/50
+2019-04-19 17:01:04,765 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.69775; Test AUC: 0.70746
+2019-04-19 17:01:04,766 [INFO] rnn_prof.simple_rnn: Performing training iteration  31/50
+2019-04-19 17:01:13,712 [INFO] rnn_prof.simple_rnn: Iteration  31/50 took 8.95s
+2019-04-19 17:01:13,712 [INFO] rnn_prof.simple_rnn: Performing training iteration  32/50
+2019-04-19 17:01:23,617 [INFO] rnn_prof.simple_rnn: Iteration  32/50 took 9.90s
+2019-04-19 17:01:23,617 [INFO] rnn_prof.simple_rnn: Performing training iteration  33/50
+2019-04-19 17:01:31,633 [INFO] rnn_prof.simple_rnn: Iteration  33/50 took 8.02s
+2019-04-19 17:01:31,633 [INFO] rnn_prof.simple_rnn: Performing training iteration  34/50
+2019-04-19 17:01:39,571 [INFO] rnn_prof.simple_rnn: Iteration  34/50 took 7.94s
+2019-04-19 17:01:39,571 [INFO] rnn_prof.simple_rnn: Performing training iteration  35/50
+2019-04-19 17:01:47,499 [INFO] rnn_prof.simple_rnn: Iteration  35/50 took 7.93s
+2019-04-19 17:01:47,499 [INFO] rnn_prof.simple_rnn: Performing training iteration  36/50
+2019-04-19 17:01:55,414 [INFO] rnn_prof.simple_rnn: Iteration  36/50 took 7.92s
+2019-04-19 17:01:55,414 [INFO] rnn_prof.simple_rnn: Performing training iteration  37/50
+2019-04-19 17:02:02,485 [INFO] rnn_prof.simple_rnn: Iteration  37/50 took 7.07s
+2019-04-19 17:02:02,485 [INFO] rnn_prof.simple_rnn: Performing training iteration  38/50
+2019-04-19 17:02:07,582 [INFO] rnn_prof.simple_rnn: Iteration  38/50 took 5.10s
+2019-04-19 17:02:07,582 [INFO] rnn_prof.simple_rnn: Performing training iteration  39/50
+2019-04-19 17:02:12,689 [INFO] rnn_prof.simple_rnn: Iteration  39/50 took 5.11s
+2019-04-19 17:02:12,689 [INFO] rnn_prof.simple_rnn: Performing training iteration  40/50
+2019-04-19 17:02:17,965 [INFO] rnn_prof.simple_rnn: Iteration  40/50 took 5.27s
+2019-04-19 17:02:17,965 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  40/50
+2019-04-19 17:02:19,757 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.70904; Train AUC: 0.72441
+2019-04-19 17:02:19,757 [INFO] rnn_prof.simple_rnn: Running tests for iteration  40/50
+2019-04-19 17:02:20,253 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.69920; Test AUC: 0.71039
+2019-04-19 17:02:20,254 [INFO] rnn_prof.simple_rnn: Performing training iteration  41/50
+2019-04-19 17:02:25,402 [INFO] rnn_prof.simple_rnn: Iteration  41/50 took 5.15s
+2019-04-19 17:02:25,402 [INFO] rnn_prof.simple_rnn: Performing training iteration  42/50
+2019-04-19 17:02:30,601 [INFO] rnn_prof.simple_rnn: Iteration  42/50 took 5.20s
+2019-04-19 17:02:30,601 [INFO] rnn_prof.simple_rnn: Performing training iteration  43/50
+2019-04-19 17:02:35,802 [INFO] rnn_prof.simple_rnn: Iteration  43/50 took 5.20s
+2019-04-19 17:02:35,802 [INFO] rnn_prof.simple_rnn: Performing training iteration  44/50
+2019-04-19 17:02:40,958 [INFO] rnn_prof.simple_rnn: Iteration  44/50 took 5.15s
+2019-04-19 17:02:40,959 [INFO] rnn_prof.simple_rnn: Performing training iteration  45/50
+2019-04-19 17:02:46,081 [INFO] rnn_prof.simple_rnn: Iteration  45/50 took 5.12s
+2019-04-19 17:02:46,082 [INFO] rnn_prof.simple_rnn: Performing training iteration  46/50
+2019-04-19 17:02:51,222 [INFO] rnn_prof.simple_rnn: Iteration  46/50 took 5.14s
+2019-04-19 17:02:51,222 [INFO] rnn_prof.simple_rnn: Performing training iteration  47/50
+2019-04-19 17:02:56,582 [INFO] rnn_prof.simple_rnn: Iteration  47/50 took 5.36s
+2019-04-19 17:02:56,582 [INFO] rnn_prof.simple_rnn: Performing training iteration  48/50
+2019-04-19 17:03:01,809 [INFO] rnn_prof.simple_rnn: Iteration  48/50 took 5.23s
+2019-04-19 17:03:01,809 [INFO] rnn_prof.simple_rnn: Performing training iteration  49/50
+2019-04-19 17:03:07,025 [INFO] rnn_prof.simple_rnn: Iteration  49/50 took 5.22s
+2019-04-19 17:03:07,025 [INFO] rnn_prof.simple_rnn: Performing training iteration  50/50
+2019-04-19 17:03:12,260 [INFO] rnn_prof.simple_rnn: Iteration  50/50 took 5.24s
+2019-04-19 17:03:12,260 [INFO] rnn_prof.simple_rnn: Computing metrics for training data on iteration  50/50
+2019-04-19 17:03:13,886 [INFO] rnn_prof.simple_rnn: Train Accuracy: 0.71191; Train AUC: 0.72894
+2019-04-19 17:03:13,886 [INFO] rnn_prof.simple_rnn: Running tests for iteration  50/50
+2019-04-19 17:03:14,368 [INFO] rnn_prof.simple_rnn: Test Accuracy: 0.70151; Test AUC: 0.71445
+2019-04-19 17:03:14,368 [INFO] rnn_prof.run_rnn: Fold 5: Num Interactions: 55765; Test Accuracy: 0.70151; Test AUC: 0.71445
+2019-04-19 17:03:14,376 [INFO] rnn_prof.run_rnn: Completed all 5 folds
+2019-04-19 17:03:14,376 [INFO] rnn_prof.run_rnn: Fold 1 Acc: 0.71196 AUC: 0.72739
+2019-04-19 17:03:14,376 [INFO] rnn_prof.run_rnn: Fold 2 Acc: 0.70667 AUC: 0.72284
+2019-04-19 17:03:14,376 [INFO] rnn_prof.run_rnn: Fold 3 Acc: 0.70488 AUC: 0.72303
+2019-04-19 17:03:14,376 [INFO] rnn_prof.run_rnn: Fold 4 Acc: 0.70944 AUC: 0.72108
+2019-04-19 17:03:14,376 [INFO] rnn_prof.run_rnn: Fold 5 Acc: 0.70151 AUC: 0.71445
+2019-04-19 17:03:14,376 [INFO] rnn_prof.run_rnn: Overall 5 Acc: 0.70689 AUC: 0.72176

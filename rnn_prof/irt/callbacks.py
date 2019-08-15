@@ -4,8 +4,12 @@ Basic callbacks for the Bayes Net IRT learners.
 import logging
 import numpy as np
 
-from .cpd.ogive import OgiveCPD
-from .metrics import LOGLI_KEY, MAP_ACCURACY_KEY, AUC_KEY, METRICS_KEYS
+import cpd
+import ogive
+import metrics
+
+from ogive import OgiveCPD
+from metrics import LOGLI_KEY, MAP_ACCURACY_KEY, AUC_KEY, METRICS_KEYS
 
 LOGGER = logging.getLogger(__name__)
 TRAIN_LOG_POST_KEY = 'train log posterior'
